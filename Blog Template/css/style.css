@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation{
+height: 74px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.navigation img{
+    height: 60px;
+    margin-left: 680px;
+}
+
+.navigation1{
+    /*background-color: #30546378;*/
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 2;
+}
+
+.nav-left ul{
+    display: flex;
+    margin: 65px;
+}
+
+.nav-left ul li{
+    list-style: none;
+}
+
+.nav-left ul li a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-family: var(--font32);
+    font-size: 25px;
+}
+
+.nav-left ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 133, 133);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.nav-left ul li a:hover:after{
+    width: 100%;
+}
+
+.content{
+height: 400px;
+/*background-color: rgb(244 249 255);*/
+display: flex;
+margin-top: 18px;
+padding: 10px;
+font-size: 20px;
+}
+
+
+.nav-background{
+    height: 576px;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url(../img/owen-lystrup-boLgiM0qwkg-unsplash.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.content-left{
+    width: 50%;
+    margin: 10px;
+  font-family: var(--font3);
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  z-index: 1;
+  color: white;
+}
+
+.content-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.content-right img{
+   height: 350px;
+   justify-content: center; 
+   border: 2px solid black;
+   border-radius: 100px;
+}
+
+.content-right img:hover{
+    transform: scale(1.02);
+    z-index: 2;
+    cursor: pointer;
+ }
+
+
+.home-article{
+    display: flex;
+    margin: 20px;
+}
+
+.home-article img:hover{
+transform: scale(1.04);
+z-index: 2;
+cursor: pointer;
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a{
+    color: black;
+    text-decoration: none;
+}
+
+.home-article-content a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.home-article img{
+    width: 150px;
+}
+
+.footer{
+height: 300px;
+background-color: #000000e3;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+color: white;
+position: relative;
+}
+
+.bt{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: 39px;
+    padding: 14px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 47px;
+}
+
+.bt:hover{
+    transform: scale(1.04);
+    z-index: 2;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 18px;
+}
+.icon{
+    height: 10px;
+    margin: 10px;
+    transition: 0.2s ;
+}
+.icon:hover{
+    transform: scale(1.09);
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-twitter{
+    color: #0097e6;
+}
+.fa-linkedin{
+    color: #0097e6;
+}
+
+.follow{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-right: 13px;
+    color: white;
+}
+
+.wrapper1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-leftt ul{
+    display: flex;
+    margin: 65px;
+}
+
+.nav-leftt ul li{
+    list-style: none;
+}
+
+.nav-leftt ul li a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-family: var(--font32);
+    font-size: 18px;
+}
+
+.nav-leftt ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 133, 133);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.nav-leftt ul li a:hover:after{
+    width: 100%;
+}
+
+.foot{
+    margin-left: -83px;
+    margin-right: 78px;
+    margin-bottom: 20px
+}
+
+
+
+
+

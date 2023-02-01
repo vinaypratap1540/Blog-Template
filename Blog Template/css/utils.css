@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Sofia+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+:root{
+    --main-bg-color:brown;
+    --font1: 'Sofia Sans', sans-serif;
+    --font2: 'Merriweather', serif;
+    --font3:'Zilla Slab', serif;
+}
+.max-width-1{
+   max-width: 80vw;
+}
+
+.max-width-2{
+    
+    font-family: var(--font3);
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.font3{
+    font-family: var(--font3);
+}
+
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 3px;
+    font-family: var(--font3);
+}
+
+.btn{
+    margin: 6px;
+    padding: 3px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font3);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    color: white;
+    background-color: brown;
+}
+
+.content{
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.home-articles{
+    margin-top: 12px;
+    
+  }
+
+.form-box input ,textarea{
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px;
+    border: 2px solid rgb(4, 0, 129);
+    font-family: var(--font3);
+    font-size: 20px;
+}
+
+.btnn{
+    margin: 6px;
+    padding: 3px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font3);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.btnn:hover{
+    color: white;
+    background-color: brown;
+}
+
+.ha{
+    margin-top: 850px;
+    margin-left: 145px;
+}
